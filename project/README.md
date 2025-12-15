@@ -2,7 +2,7 @@
 
 **Intelligent Customer Profiling using Fuzzy C-Means Clustering and Granular Computing**
 
-> *Where Every Customer Belongs Everywhere*
+> _Where Every Customer Belongs Everywhere_
 
 ---
 
@@ -11,6 +11,7 @@
 Traditional K-Means clustering forces customers into single, rigid categories, missing the multi-dimensional nature of customer behavior. A customer who purchases tech (25%), fashion (45%), and beauty (20%) products gets labeled as just a "Fashion Shopper" (100%), losing 55% of their behavioral complexity.
 
 **Business Impact:**
+
 - Lost cross-sell opportunities
 - Poor targeting accuracy
 - Missed revenue potential
@@ -22,6 +23,7 @@ Traditional K-Means clustering forces customers into single, rigid categories, m
 **FuzzySegment Pro** uses **Fuzzy C-Means clustering** to assign membership degrees across multiple segments simultaneously, capturing the full spectrum of customer interests.
 
 ### Key Innovation
+
 - **Soft Clustering**: Customers belong to multiple segments with membership scores (0-1)
 - **Granular Computing**: Multi-level data abstraction for hierarchical analysis
 - **Comprehensive Metrics**: 5 fuzzy-specific validation indices (PC, MPC, PE, XBI, FSI)
@@ -86,25 +88,29 @@ Visit: **http://localhost:8501**
 ## 📊 Features
 
 ### Data Pipeline
+
 - ✅ RFM (Recency, Frequency, Monetary) analysis
 - ✅ Category affinity percentages (Furniture, Office Supplies, Technology)
 - ✅ Normalized features (0-1 scale)
 
 ### Clustering Engine
+
 - ✅ Fuzzy C-Means implementation with `scikit-fuzzy`
 - ✅ Configurable parameters (n_clusters, fuzzifier)
 - ✅ Hard label conversion for comparison
 
 ### Validation Metrics
-| Metric | Range | Better | Description |
-|--------|-------|--------|-------------|
-| **PC** | [1/c, 1] | Higher | Partition Coefficient - measures crispness |
-| **MPC** | [0, 1] | Higher | Modified PC - normalized version |
-| **PE** | [0, log(c)] | Lower | Partition Entropy - measures disorder |
-| **XBI** | [0, ∞) | Lower | Xie-Beni Index - compactness/separation ratio |
-| **FSI** | [-1, 1] | Higher | Fuzzy Silhouette - fuzzy extension of silhouette |
+
+| Metric  | Range       | Better | Description                                      |
+| ------- | ----------- | ------ | ------------------------------------------------ |
+| **PC**  | [1/c, 1]    | Higher | Partition Coefficient - measures crispness       |
+| **MPC** | [0, 1]      | Higher | Modified PC - normalized version                 |
+| **PE**  | [0, log(c)] | Lower  | Partition Entropy - measures disorder            |
+| **XBI** | [0, ∞)      | Lower  | Xie-Beni Index - compactness/separation ratio    |
+| **FSI** | [-1, 1]     | Higher | Fuzzy Silhouette - fuzzy extension of silhouette |
 
 ### Interactive Dashboard
+
 - ✅ CSV upload or use default dataset
 - ✅ Feature selection
 - ✅ Real-time clustering with parameter tuning
@@ -118,12 +124,14 @@ Visit: **http://localhost:8501**
 **Dataset:** 793 customers from Superstore transaction data
 
 **Fuzzy C-Means Performance:**
+
 - PC: ~0.65 (moderate fuzziness)
 - XBI: ~0.15 (good compactness)
 - FSI: ~0.40 (reasonable separation)
 - **Multi-dimensional customers detected:** 20-40% of dataset
 
 **vs K-Means:**
+
 - K-Means: 100% membership (all customers)
 - FCM: Variable memberships revealing overlapping interests
 - **Result:** FCM captures customer complexity that K-Means misses
@@ -144,6 +152,7 @@ Visit: **http://localhost:8501**
 ## 📚 Research Foundation
 
 Based on peer-reviewed research:
+
 1. **Sivaguru & Punniyamoorthy (2020)** — Dynamic Fuzzy C-Means for customer segmentation
 2. **Sivaguru (2023)** — Granular Computing + Fuzzy validation metrics
 3. **Yuliari et al. (2015)** — Fuzzy RFM methodology
@@ -159,6 +168,7 @@ Based on peer-reviewed research:
 4. **Retention Strategy**: Identify customers shifting between segments
 
 **ROI (from literature):**
+
 - E-commerce: +158% revenue
 - Banking: +2,504% ROI
 
@@ -184,4 +194,4 @@ GitHub: [BV-Tech-Team/FuzzySegment-Pro](https://github.com/BV-Tech-Team/FuzzySeg
 
 ---
 
-*Built with ❤️ using Fuzzy C-Means and Granular Computing*
+_Built with ❤️ using Fuzzy C-Means and Granular Computing_

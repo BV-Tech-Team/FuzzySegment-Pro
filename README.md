@@ -38,6 +38,7 @@ streamlit run streamlit_app/app.py
 A customer segmentation tool that uses **Fuzzy C-Means clustering** to capture multi-dimensional customer behavior, going beyond traditional K-Means' single-category assignments.
 
 **Key Features:**
+
 - ✅ Soft clustering with membership degrees
 - ✅ Multi-dimensional customer profiling
 - ✅ Interactive Streamlit dashboard
@@ -68,4 +69,4 @@ A customer segmentation tool that uses **Fuzzy C-Means clustering** to capture m
 
 ---
 
-*Built with Fuzzy C-Means & Granular Computing*
+_Built with Fuzzy C-Means & Granular Computing_
