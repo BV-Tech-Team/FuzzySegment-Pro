@@ -4,7 +4,7 @@
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── project/           # Main implementation code
@@ -19,7 +19,7 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Navigate to the [`project/`](./project) folder for full documentation and setup instructions.
 
@@ -33,21 +33,21 @@ streamlit run streamlit_app/app.py
 
 ---
 
-## 🎯 What is FuzzySegment Pro?
+## What is FuzzySegment Pro?
 
 A customer segmentation tool that uses **Fuzzy C-Means clustering** to capture multi-dimensional customer behavior, going beyond traditional K-Means' single-category assignments.
 
 **Key Features:**
 
-- ✅ Soft clustering with membership degrees
-- ✅ Multi-dimensional customer profiling
-- ✅ Interactive Streamlit dashboard
-- ✅ Comprehensive fuzzy validation metrics
-- ✅ K-Means comparison analysis
+- Soft clustering with membership degrees
+- Multi-dimensional customer profiling
+- Interactive Streamlit dashboard
+- Comprehensive fuzzy validation metrics
+- K-Means comparison analysis
 
 ---
 
-## 📊 Results Preview
+## Results Preview
 
 - **793 customers** analyzed from Superstore dataset
 - **20-40%** identified as multi-dimensional (missed by K-Means)
@@ -56,14 +56,14 @@ A customer segmentation tool that uses **Fuzzy C-Means clustering** to capture m
 
 ---
 
-## 🔗 Links
+## Links
 
 - **GitHub**: https://github.com/BV-Tech-Team/FuzzySegment-Pro
 - **Full Documentation**: [`project/README.md`](./project/README.md)
 
 ---
 
-## 👥 Team
+## Team
 
 **BV Tech Team**
 
