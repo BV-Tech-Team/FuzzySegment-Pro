@@ -1,6 +1,46 @@
+# Python virtual environment
 .venv/
+venv/
+env/
+
+# Python cache
 __pycache__/
-.ipynb_checkpoints/
 *.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment variables
 .env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Learning materials and extras (for development only)
+.learn/
+
+# Data files (too large for git)
+*.xlsx
+*.csv
+!project/data/train.csv
+!project/data/preprocessed_customers.csv
+
+# Generated visualizations
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+*.log

@@ -1,37 +1,71 @@
 # FuzzySegment Pro
 
-Intelligent Customer Profiling using Fuzzy C-Means clustering and Granular Computing.
+**Intelligent Customer Profiling System using Fuzzy C-Means Clustering**
 
-## Quick start
+---
 
-1. Create conda environment (Python 3.10+ recommended).
+## 📁 Repository Structure
+
+```
+├── project/           # Main implementation code
+│   ├── src/          # Core Python modules
+│   ├── streamlit_app/# Web dashboard
+│   ├── notebooks/    # Analysis scripts
+│   ├── data/         # Dataset files
+│   └── README.md     # Project documentation
+│
+└── report/           # (Coming soon) Technical report and presentation
+```
+
+---
+
+## 🚀 Getting Started
+
+Navigate to the [`project/`](./project) folder for full documentation and setup instructions.
 
 ```powershell
+cd project
 conda create -n fuzzysegment python=3.10 -y
 conda activate fuzzysegment
 pip install -r requirements.txt
-```
-
-2. Preprocess data (generates customer features from transactions)
-
-```powershell
-cd notebooks
-python preprocess_data.py
-cd ..
-```
-
-3. Run the Streamlit app
-
-```powershell
 streamlit run streamlit_app/app.py
 ```
 
-Project layout
+---
 
-- `src/` — core modules (data pipeline, clustering wrappers)
-- `data/` — sample and preprocessed datasets
-- `streamlit_app/` — interactive demo
-- `notebooks/` — learning notebooks and experiments
-- `.learn/` — guided lessons to learn FuzzySegment Pro
+## 🎯 What is FuzzySegment Pro?
 
-Next steps: implement models, tune parameters, and run examples.
+A customer segmentation tool that uses **Fuzzy C-Means clustering** to capture multi-dimensional customer behavior, going beyond traditional K-Means' single-category assignments.
+
+**Key Features:**
+- ✅ Soft clustering with membership degrees
+- ✅ Multi-dimensional customer profiling
+- ✅ Interactive Streamlit dashboard
+- ✅ Comprehensive fuzzy validation metrics
+- ✅ K-Means comparison analysis
+
+---
+
+## 📊 Results Preview
+
+- **793 customers** analyzed from Superstore dataset
+- **20-40%** identified as multi-dimensional (missed by K-Means)
+- **5 fuzzy metrics** for cluster quality validation
+- **Real-time visualization** of membership degrees
+
+---
+
+## 🔗 Links
+
+- **GitHub**: https://github.com/BV-Tech-Team/FuzzySegment-Pro
+- **Full Documentation**: [`project/README.md`](./project/README.md)
+
+---
+
+## 👥 Team
+
+**BV Tech Team**
+
+---
+
+*Built with Fuzzy C-Means & Granular Computing*
